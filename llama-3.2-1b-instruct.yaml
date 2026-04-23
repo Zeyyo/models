@@ -1,6 +1,6 @@
 name: llama-3.2-1b-instruct
 parameters:
-  model: Llama-3.2-1B-Instruct-Q6_K.gguf
+  model: huggingface://bartowski/Llama-3.2-1B-Instruct-GGUF/Llama-3.2-1B-Instruct-Q6_K.gguf
   stream: false
 backend: llama-cpp
 context_size: 4096
